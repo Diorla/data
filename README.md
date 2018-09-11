@@ -2,6 +2,7 @@
 Some collections of data
 
 ## countries.json
+- basic info about a country like language, official name, language, region etc.
 - data type: array of objects
 - data sample
 ```json
@@ -64,4 +65,22 @@ Some collections of data
   "azure": "#f0ffff",
   ...
 }
+```
+
+## city-list.json
+- City informations
+- Array of objects
+```json
+[
+  {
+    "id": 707860,
+    "name": "Hurzuf",
+    "country": "UA",
+    "coord": {
+      "lon":34.283333,
+      "lat":44.549999
+    }
+  }
+...
+]
 ```
