@@ -53,3 +53,15 @@ Some collections of data
   }
 ]
 ```
+
+## css-color-names.json
+```json
+{
+  "aliceblue": "#f0f8ff",
+  "antiquewhite": "#faebd7",
+  "aqua": "#00ffff",
+  "aquamarine": "#7fffd4",
+  "azure": "#f0ffff",
+  ...
+}
+```
