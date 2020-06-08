@@ -140,3 +140,6 @@ Some collections of data
 
 ## jobs
 This is the list of occupations
+
+## Bad habits
+Behaviours that harmful consequences to the person or other people.
