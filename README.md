@@ -121,8 +121,9 @@ Some collections of data
 ```
 
 ## location.json
+
 - Array of objects
-- Each object contains the following information 
+- Each object contains the following information
   - Country, Subcountry, City and geonnameid
 - Note, it is not as extensive as `city_list.json`
 
@@ -139,7 +140,26 @@ Some collections of data
 ```
 
 ## jobs
+
 This is the list of occupations
 
 ## Bad habits
+
 Behaviours that harmful consequences to the person or other people.
+
+## Activities
+
+- name: Name of the activity
+- location: refers to whether the activity takes place inside a building(under a roof) or not
+- mode(home or outing): `Home` refers to activity that you can do in the comfort of your house e.g. `chess` or `cooking`. On the other hand, `outing` requires you to leave your house. By default, all outdoor activities having `outing` mode. Some indoors activities also requires `outing` e.g. `cinema` or `watching a tennis match`.
+
+```jsonc
+[
+  {
+    "name": "Reading",
+    "location": "indoor",
+    "mode": "home"
+  }
+  //...
+]
+```
